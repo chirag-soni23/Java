@@ -12,5 +12,12 @@ public class Array{
                      i++;
 
               }
+
+
+              // Array string
+              String[] myArrstr = {"My", "Name", "Chirag", "Soni"};
+              System.out.println(myArrstr[0]);
+
+
        }
 }
