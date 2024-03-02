@@ -9,7 +9,7 @@ public class Arrayutility{
               int[] nums = new int[size];
               int i = 0;
               while(i<size){
-                     System.out.println("Please enter the element no. " + (i+1) + " : ");
+                     System.out.print("Please enter the element no. " + (i+1) + " : ");
                      nums[i] = input.nextInt();
                      i++;
               } 
