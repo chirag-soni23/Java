@@ -8,6 +8,7 @@ public class SumandAverage {
               System.out.println("The average of element is: " + average);
 
        }
+       // Sum of Array
        public static long sum(int[] numArr){
               int i = 0;
               long sum = 0;
@@ -19,6 +20,7 @@ public class SumandAverage {
               return sum;
 
        }
+       // Average of Array
        public static double average(int[] numArr){
               double sum = sum(numArr);
               return sum / numArr.length;
