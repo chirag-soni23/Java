@@ -20,22 +20,24 @@ public class Arrayutility{
        public static int[][] input2DArray(){
               @SuppressWarnings("resource")
               Scanner input = new Scanner(System.in);
-              System.out.println("Please, Enter a row: ");
-              int row = input.nextInt();
-              System.out.println("Please, Enter a column: ");
-              int column = input.nextInt();
-              int[][] numArr = new int[row][column];
+              System.out.print("Please enter the number of rows: ");
+              int rows = input.nextInt();
+              System.out.print("Please enter the number of columns: ");
+              int columns = input.nextInt();
+              int[][] numArr = new int[rows][columns];
               int i = 0;
-              while(i<row){
-                     int j = 0;
-                     while (i<column) {
-                            System.out.print("Please enter element roes : " + (i + 1) + ",  column: "  + (j+1) + " : ");
-                            j++;
-                            
-                     }
-                     i++;
+              while (i < rows) {
+                  int j = 0;
+                  while(j<columns){
+                      System.out.print("Please enter element rows : " + (i + 1) + ",  column: "  + (j+1) + " : ");
+                      numArr[i][j] = input.nextInt();
+                      j++;
+                  }
+      
+                  i++;
               }
               return numArr;
+          
        }
 
        public static void displayArr(int[] numArr){
