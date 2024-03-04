@@ -12,7 +12,7 @@ public class SumandAverage2d {
               int i = 0;
               while (i<numArr.length){
                      int j = 0;
-                     while(i<numArr[i].length){
+                     while(j<numArr[i].length){
                             sum += numArr[i][j];
                             j++;
                      }
