@@ -5,19 +5,23 @@ public class Car{
       int maxSpeed;
       int noOfseats;
 
-      public void drive(){
-       if(currentFuelinLitre == 0){
-              System.out.println("Car is out of fuel");
+      public Car start(){
+       if(currentFuelinLitre < 0){
+              System.out.println("Car is out of fuel, Cannot Start");
        }
        else if(currentFuelinLitre < 5){
               System.out.println("Car is in reserved mode, please refuel");
-              currentFuelinLitre--;
-
        }
        else{
+              System.out.println("Car is started.....bruhhhh......");
+       }
+       return this;
+      }
+
+      public void drive(){
               System.out.println("Car is  driving");
               currentFuelinLitre--;
-       }
+       
 
       }
 
