@@ -19,14 +19,13 @@ public class DeleteArray {
               }
               int newSize = numArr.length - occ;
               int[] newArr = new int[newSize];
-              
+
               int i = 0, j = 0;
-              while(i<numArr.length){
-                     if(numArr[i] != numtoDel){
+              while (i < numArr.length) {
+                     if (numArr[i] != numtoDel) {
                             newArr[j] = numArr[i];
                             j++;
-                            
-                            
+
                      }
                      i++;
               }
