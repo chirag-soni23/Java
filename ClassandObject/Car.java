@@ -9,6 +9,9 @@ public class Car{
        this.color = color;
        noOfWheels = 4;
       }
+      Car(){
+       this("black");
+      }
 
 
       public Car start(){

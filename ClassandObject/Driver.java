@@ -24,6 +24,9 @@ public class Driver {
 
             System.out.println("Color of swift car is: " + swift.color);
 
+            Car thar = new Car();
+            System.out.println("Color of thar is: " + thar.color);
+
       }
 
 }
