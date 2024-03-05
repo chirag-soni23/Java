@@ -1,9 +1,20 @@
 public class Car{
+       static int noOfCarsold;
+
       int noOfWheels;
       String color;
       float currentFuelinLitre;
       int maxSpeed;
       int noOfseats;
+
+      static{
+       noOfCarsold = 0;
+       System.out.println("I am in a static block");
+      }
+      {
+       noOfCarsold++;
+       System.out.println("I am in a init block");
+      }
 
       Car(String color){
        this.color = color;
