@@ -5,6 +5,12 @@ public class Car{
       int maxSpeed;
       int noOfseats;
 
+      Car(String color){
+       this.color = color;
+       noOfWheels = 4;
+      }
+
+
       public Car start(){
        if(currentFuelinLitre < 0){
               System.out.println("Car is out of fuel, Cannot Start");
