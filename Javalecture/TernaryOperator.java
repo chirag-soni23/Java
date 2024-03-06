@@ -10,12 +10,21 @@ public class TernaryOperator {
               System.out.print("Now, Enter a second number: ");
               int num2 = input.nextInt();
 
-              // Non ternary operator;
-              if (num1 > num2) {
-                     System.out.println(num1 + " is a greatest number.");
-              } else {
-                     System.out.println(num2 + " is a greatest number.");
-              }
+              // Non ternary operator
+              // int greatestNum;
+              // if (num1 > num2) {
+              //        greatestNum = num1;
+              //        System.out.println(greatestNum + " is a greatest number.");
+              // } else {
+              //        greatestNum = num2;
+              //        System.out.println(greatestNum + " is a greatest number.");
+              // }
 
+              // Ternay operator
+              int greatestNum = num1 > num2 ? num1 : num2;
+              System.out.println(greatestNum + " is a greatest number.");
+
+              
+       
        }
 }
