@@ -12,7 +12,7 @@ public class SwitchCase {
 
        }
 
-       // New switch case.
+       // New switch case
        public static void newSwitch(int day) {
               String output = switch (day) {
                      case 1 -> "Monday";
@@ -27,7 +27,7 @@ public class SwitchCase {
               System.out.println(output);
        }
 
-       // Old switch case.
+       // Old switch case
        public static void oldSwitch(int day) {
               switch (day) {
                      case 1:
