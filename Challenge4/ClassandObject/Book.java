@@ -1,4 +1,4 @@
-package Challenge4;
+package Challenge4.ClassandObject;
 
 class Book {
        static int totalNoOfBooks;
