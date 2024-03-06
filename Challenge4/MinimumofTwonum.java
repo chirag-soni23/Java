@@ -1,4 +1,3 @@
-package Challenge4;
 import java.util.Scanner;
 public class MinimumofTwonum{
        public static void main(String[] args) {

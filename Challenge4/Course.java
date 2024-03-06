@@ -1,5 +1,3 @@
-package Challenge4.ClassandObject;
-
 class Course {
        static int maxCapacity = 100;
        String courseName;

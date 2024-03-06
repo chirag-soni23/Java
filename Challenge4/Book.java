@@ -1,5 +1,3 @@
-package Challenge4.ClassandObject;
-
 class Book {
        static int totalNoOfBooks;
        String isbn;
