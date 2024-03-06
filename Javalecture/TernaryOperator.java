@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class TernaryOperator{
+public class TernaryOperator {
        public static void main(String[] args) {
               @SuppressWarnings("resource")
               Scanner input = new Scanner(System.in);
@@ -11,12 +11,11 @@ public class TernaryOperator{
               int num2 = input.nextInt();
 
               // Non ternary operator;
-              if(num1 > num2){
+              if (num1 > num2) {
                      System.out.println(num1 + " is a greatest number.");
-              }
-              else{
+              } else {
                      System.out.println(num2 + " is a greatest number.");
               }
-              
+
        }
 }
