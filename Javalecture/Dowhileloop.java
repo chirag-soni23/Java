@@ -6,6 +6,10 @@ public class Dowhileloop{
                Scanner input = new Scanner(System.in);
               // System.out.print("Please enter your age: ");
               // int age = input.nextInt();
+
+
+
+              // While loop
               // while(age<0||age>100){
               //        System.out.print("Please enter your age: ");
               //         age = input.nextInt();
