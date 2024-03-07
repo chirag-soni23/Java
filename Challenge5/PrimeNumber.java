@@ -1,4 +1,3 @@
-package Challenge5;
 import java.util.Scanner;
 public class PrimeNumber {
        @SuppressWarnings("resource")

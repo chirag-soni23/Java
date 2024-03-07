@@ -1,5 +1,3 @@
-package Challenge5;
-
 import java.util.Scanner;
 public class PrintTable{
        public static void main(String[] args) {
