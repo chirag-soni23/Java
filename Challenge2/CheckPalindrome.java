@@ -1,6 +1,5 @@
 import java.util.Scanner;
-
-public class Palindrome {
+public class CheckPalindrome {
        @SuppressWarnings("resource")
        public static void main(String[] args) {
               Scanner input = new Scanner(System.in);

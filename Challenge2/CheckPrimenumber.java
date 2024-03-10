@@ -1,6 +1,5 @@
 import java.util.Scanner;
-
-public class Primenumber {
+public class CheckPrimenumber {
        public static void main(String[] args) {
               @SuppressWarnings("resource")
               Scanner input = new Scanner(System.in);
