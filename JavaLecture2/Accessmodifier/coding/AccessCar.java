@@ -1,3 +1,5 @@
+package JavaLecture2.Accessmodifier.coding;
+
 public class AccessCar{
        public String name;
        public String model;

@@ -1,3 +1,5 @@
+package JavaLecture2.Accessmodifier.coding;
+
 public class Accesstest {
        public static void main(String[] args) {
               AccessCar myCar = new AccessCar("Swift","s34rrd",5000,120,"Chirag");
