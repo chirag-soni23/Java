@@ -11,6 +11,7 @@ public class Laptop{
        public class Pendrive{
               @SuppressWarnings("unused")
               private int size;
+              @SuppressWarnings("unused")
               private String name;
               public void name(){
                      name = "Lenovo";
