@@ -1,4 +1,4 @@
-public class Car{
+public class ClassCar{
        static int noOfCarsold;
 
       int noOfWheels;
@@ -16,16 +16,16 @@ public class Car{
        System.out.println("I am in a init block");
       }
 
-      Car(String color){
+      ClassCar(String color){
        this.color = color;
        noOfWheels = 4;
       }
-      Car(){
+      ClassCar(){
        this("black");
       }
 
 
-      public Car start(){
+      public ClassCar start(){
        if(currentFuelinLitre < 0){
               System.out.println("Car is out of fuel, Cannot Start");
        }

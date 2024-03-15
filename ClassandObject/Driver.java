@@ -10,7 +10,7 @@ public class Driver {
             // System.out.println(myCar.getCurrentfuelIncar());
 
 
-            Car swift = new Car("red");
+            ClassCar swift = new ClassCar("red");
             swift.addFuel(3);
             swift.start();
             swift.drive();
@@ -24,7 +24,7 @@ public class Driver {
 
             System.out.println("Color of swift car is: " + swift.color);
 
-            Car thar = new Car();
+            ClassCar thar = new ClassCar();
             System.out.println("Color of thar is: " + thar.color);
 
       }
