@@ -1,3 +1,5 @@
+package JavaLecture2.Inheritance;
+
 public class Vehicle{
        protected int numberOftyres;
 
