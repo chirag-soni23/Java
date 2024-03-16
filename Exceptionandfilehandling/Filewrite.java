@@ -1,8 +1,5 @@
-package Exceptionandfilehandling;
-
 import java.io.FileWriter;
 import java.io.IOException;
-
 public class Filewrite {
        public static void main(String[] args) {
               String Filename = "Java-course.txt";

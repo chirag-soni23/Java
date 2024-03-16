@@ -1,5 +1,3 @@
-package Exceptionandfilehandling;
-
 import java.util.Scanner;
 
 public class Calculatorexcep {
