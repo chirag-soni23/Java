@@ -1,9 +1,9 @@
 public class Testcar {
        public static void main(String[] args) {
               // Vehicle vehicle = new Vehicle();
-              Car car = new Car();
+              CarPoly car = new CarPoly();
               // Plane plane = new Plane();
-              Vehicle vCar = new Car();
+              Vehicle vCar = new CarPoly();
               // castTest(plane);
               // castTest(vehicle);
               // castTest(car);
@@ -17,7 +17,7 @@ public class Testcar {
               veh.start();
               // Car car = new Car();
               // car.start();
-              Car cVehicle = (Car) veh;
+              CarPoly cVehicle = (CarPoly) veh;
               System.out.println(cVehicle.noOfDoors());
 
        }

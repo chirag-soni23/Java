@@ -1,4 +1,4 @@
-public class Car implements Vehicle{
+public class CarPoly implements Vehicle{
      
        public int noOfDoors(){
               return 5;
