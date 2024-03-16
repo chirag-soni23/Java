@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class Fileread {
        public static void main(String[] args) {
-              String fileName = "java-course.txt";
+              String fileName = "Java-course.txt";
               try(FileReader reader = new FileReader(fileName)){
                      int read = 0;
                      do {
@@ -14,7 +14,7 @@ public class Fileread {
                      } while (read != -1);
 
               }catch(IOException exception){
-                     System.out.printf("Exception occurres: %s",exception);
+                     System.out.printf("Exception occurres: %s",exception.getMessage());
               }
        }
 }

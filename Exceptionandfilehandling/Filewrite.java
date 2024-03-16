@@ -17,7 +17,7 @@ public class Filewrite {
                      writer.flush();
                      System.out.println("File Written Successfully.");
               } catch (IOException exception) {
-                     System.out.printf("Exception occured: %s", exception);
+                     System.out.printf("Exception occured: %s", exception.getMessage());
               }
        }
 
