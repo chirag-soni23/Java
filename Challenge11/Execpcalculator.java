@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Calculatorexcep {
+public class Execpcalculator {
        @SuppressWarnings("resource")
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
