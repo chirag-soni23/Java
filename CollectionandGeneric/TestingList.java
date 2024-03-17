@@ -15,6 +15,8 @@ public class TestingList{
               for (int i = 0; i < list.size(); i++) {
                      System.out.println(list.get(i)); 
               }
+
+              // For each loop
              for (String lists : list) {
               System.out.println(lists);
              };
