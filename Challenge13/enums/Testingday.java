@@ -12,7 +12,7 @@ public class Testingday {
 
               // For-each method 👇
               for (Days days : Days.values()) {
-                     System.out.println(days);
+                     System.out.printf("%s : %s\n",days,days.getTypes());
               }
               
        }
