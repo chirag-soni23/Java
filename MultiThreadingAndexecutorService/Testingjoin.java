@@ -1,3 +1,5 @@
+import Runnable.PrintTask;
+
 public class Testingjoin {
        public static void main(String[] args) throws InterruptedException {
               PrintTask p1 = new PrintTask('*');

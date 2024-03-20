@@ -1,3 +1,5 @@
+package Runnable;
+
 public class TestingRunnable {
        public static void main(String[] args) {
               PrintTask p1 = new PrintTask('*');

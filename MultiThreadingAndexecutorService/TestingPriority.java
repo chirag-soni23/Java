@@ -1,3 +1,5 @@
+import Runnable.PrintTask;
+
 public class TestingPriority{
        public static void main(String[] args) {
               PrintTask p1 = new PrintTask('*');

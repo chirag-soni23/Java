@@ -1,3 +1,5 @@
+package Runnable;
+
 public class PrintTask implements Runnable {
        private final char threadChar;
 

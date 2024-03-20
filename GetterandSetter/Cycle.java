@@ -1,3 +1,4 @@
+package GetterandSetter;
 public class Cycle{
        private int noOfwheels;
        private int max_speed;
