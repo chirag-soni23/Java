@@ -6,6 +6,17 @@ import java.util.function.BinaryOperator;
 public class TestingReduce {
        public static void main(String[] args) {
               List<Integer> number = List.of(1, 2, 3, 4, 5);
+
+              System.out.println("For Each");
+              int sum = 0;
+              for (Integer i : number) {
+                     sum += i;                        
+              }
+              System.out.println(sum);
+
+
+
+
               int newSum = number.stream().reduce(0, new BinaryOperator<Integer>() {
                      @Override
                      public Integer apply(Integer integer1, Integer integer2) {
