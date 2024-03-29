@@ -7,7 +7,7 @@ public class ParameterofRect {
               System.out.print("Welcome to formula of Parameter of rectangle\n");
               System.out.print("Enter the side of length1: ");
               float A = input.nextFloat();
-              System.out.print("Enter the side of length1: ");
+              System.out.print("Enter the side of length2: ");
               float B = input.nextFloat();
               System.out.print("Enter the side of width1: ");
               float C = input.nextFloat();
